@@ -1,38 +1,61 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body{
+  font-size: 20px;
+  background-color: antiquewhite;
+  
+}
+h1 {
+  font-size: 55px;
+  color: darkcyan;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contenedorpcpal{
+  background-color: rgb(238, 225, 217);
+  margin: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img1{
+width: 350px;
+margin: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nombre-receta{
+  margin: 7px;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium';
+  color:saddlebrown;
+  text-align: center;
+  
+}
+
+.ingredientes-receta {
+  
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  background-color: aliceblue;
+  gap: 4px;
+  grid-auto-flow: column;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Ingredientes{
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pasos-receta{
+  margin: 10px;
+  background-color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  
+  
 }
+
