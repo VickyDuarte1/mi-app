@@ -48,14 +48,22 @@ margin: 25px;
 
 .Ingredientes{
   margin: 20px;
+
 }
+.Ing {
+  font-size: 32px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(238, 225, 217);
+  margin: 0px;
+  text-align: center;
+}
+
 
 .pasos-receta{
   margin: 10px;
   background-color: aliceblue;
   font-size: 15px;
   text-align: center;
-  
-  
+
 }
 

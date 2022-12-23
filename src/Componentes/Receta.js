@@ -13,7 +13,7 @@ src={require (`../Imagenes/${props.imagen}`) }
 alt= 'fotoreceta' />
 
 <ul className= 'Ingredientes'>
-    <p>Ingredientes:</p>
+    <p className='Ing'>Ingredientes:</p>
     <p>{props.ingredientes}</p>
     </ul>
     
